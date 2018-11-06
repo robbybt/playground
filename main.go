@@ -16,7 +16,7 @@ func init() {
 func main(){
 	gg := *test
 	fmt.Println(gg)
-	if gg < 4 {
+	if gg < 5 {
 		os.Exit(1)
 	}
 	if gg > 10 {
