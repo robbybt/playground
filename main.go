@@ -22,4 +22,5 @@ func main(){
 	if gg > 10 {
 		os.Exit(0)
 	}
+
 }
