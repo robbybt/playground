@@ -10,5 +10,11 @@ jobs:
           name: Downloading dep
           command: echo "gg1"
       - run:
-          name: Installing dependencies with dep
-          command: echo "gg12"
+          name: Test os exit 0
+          command: go run main.go -test 11
+      - run:
+          name: Test os exit ga ada
+          command: go run main.go -test 6
+      - run:
+          name: test os exit 1
+          command: go run main.go -test 4
