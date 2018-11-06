@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    working_directory: /go/src/github.com/robbybt/playground
+    docker:
+      - image: circleci/golang:1.10
+    steps:
+      - checkout
+      - run:
+          name: Downloading dep
+          command: echo "gg1"
+      - run:
+          name: Installing dependencies with dep
+          command: echo "gg12"
