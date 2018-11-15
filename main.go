@@ -14,6 +14,7 @@ func init() {
 }
 
 func main(){
+	//asd
 	gg := *test
 	fmt.Println(gg)
 	if gg < 5{
