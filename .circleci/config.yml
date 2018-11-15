@@ -17,5 +17,5 @@ jobs:
           command: go run main.go -test 6
       - run:
           name: Running X virtual framebuffer {{ .Branch }}
-          command: {{ .Branch }}
+          command: echo {{ .Branch }}
 
