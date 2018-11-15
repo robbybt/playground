@@ -16,5 +16,7 @@ jobs:
           name: Test os exit ga ada
           command: go run main.go -test 6
       - run:
-          name: test os exit 1
-          command: go run main.go -test 4
+          name: Running X virtual framebuffer
+          command: Xvfb :99 -screen 0 1280x1024x24
+          background: true
+
