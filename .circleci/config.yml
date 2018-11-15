@@ -17,5 +17,5 @@ jobs:
           command: go run main.go -test 6
       - run:
           name: Running X virtual framebuffer
-          command: echo "{{ .Branch }}" && echo "{{ .BuildNum }}" && echo "{{ .Revision }}" && echo "{{ .CheckoutKey }}"
+          command: echo {{ .Branch }} && echo {{ .BuildNum }} && echo {{ .Revision }} && echo {{ .CheckoutKey }}
 
