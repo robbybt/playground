@@ -16,6 +16,6 @@ jobs:
           name: Test os exit ga ada
           command: go run main.go -test 6
       - run:
-          name: Running X virtual framebuffer
-          command: echo {{ .Branch }} && echo {{ .BuildNum }} && echo {{ .Revision }} && echo {{ .CheckoutKey }}
+          name: Running X virtual framebuffer {{ .Branch }}
+          command: {{ .Branch }}
 
