@@ -17,6 +17,5 @@ jobs:
           command: go run main.go -test 6
       - run:
           name: Running X virtual framebuffer
-          command: Xvfb :99 -screen 0 1280x1024x24
-          background: true
+          command: echo "{{ .Branch }}" && echo "{{ .BuildNum }}" && echo "{{ .Revision }}" && echo "{{ .CheckoutKey }}"
 
