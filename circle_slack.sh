@@ -1,8 +1,7 @@
 #!/bin/bash
 
 msg="\
-Halo, @viriyahendarta
-Username : $CIRCLE_USERNAME
+Halo, saya $CIRCLE_USERNAME mau meminta review untuk PR berikut
 Github   : $CIRCLE_PULL_REQUEST
 <!channel>
 "
