@@ -20,6 +20,6 @@ jobs:
           command: sh circle_slack.sh
           when: on_success
           branches:
-            only:
-            - master
+            ignore:
+            - ggzzzz
 
