@@ -15,14 +15,9 @@ jobs:
       - run:
           name: Test os exit ga ada
           command: go run main.go -test 6
-  Slack:
-    branches:
-      ignore:
-      - ggzzzz
-    steps:
       - run:
-          name: Slack
+          name: Success Slack
           command: sh circle_slack.sh
-
+          when: on_success
 
 
