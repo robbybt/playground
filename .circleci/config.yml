@@ -19,8 +19,9 @@ jobs:
           name: Success Slack
           command: sh circle_slack.sh
           when: on_success
-          branches:
-            ignore:
-            - ggzzzz
+          filters:
+            branches:
+              ignore:
+              - ggzzzz
 
 
