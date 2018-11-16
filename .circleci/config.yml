@@ -16,6 +16,10 @@ jobs:
           name: Test os exit ga ada
           command: go run main.go -test 6
       - run:
-          name: Running X virtual framebuffer {{ .Branch }}
-          command: echo {{ .Branch }}
+          name: Success Slack
+          command: sh circle_slack.sh
+          when: on_success
+          branches:
+            only:
+            - master
 
