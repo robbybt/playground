@@ -1,9 +1,6 @@
 version: 2
 jobs:
   build:
-    branches:
-      ignore:
-      - ggzzzz
     working_directory: /go/src/github.com/robbybt/playground
     docker:
       - image: circleci/golang:1.10
@@ -22,5 +19,8 @@ jobs:
           name: Success Slack
           command: sh circle_slack.sh
           when: on_success
+          branches:
+            ignore:
+            - ggzzzz
 
 
