@@ -1,7 +1,7 @@
 #!/bin/bash
 
 string=$(git log --format=%s -n 1)
-if [ $string contains "[fix]" ] ;
+if [[ $string =~ .*[fix].* ]] ;
 then
   echo "No Slack because commit message have prefix [fix]"
   exit 0

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a72b12-3695-4e4b-9c05-1cf5d16ad030" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/circle_slack.sh" beforeDir="false" afterPath="$PROJECT_DIR$/circle_slack.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +48,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="go" value="2548" />
-          <entry key="sh" value="210" />
+          <entry key="sh" value="220" />
           <entry key="yml" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="210" />
+          <entry key="Bash" value="220" />
           <entry key="Go" value="2548" />
           <entry key="YAML" value="229" />
         </counts>
@@ -80,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circle_slack.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" selection-start-line="16" selection-start-column="1" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="72">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -276,12 +274,12 @@
       <workItem from="1543331354831" duration="33000" />
       <workItem from="1543581678589" duration="5054000" />
       <workItem from="1543642013284" duration="94000" />
-      <workItem from="1543672256209" duration="159000" />
+      <workItem from="1543672256209" duration="220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31592000" />
+    <option name="totallyTimeSpent" value="31653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -421,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle_slack.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-start-column="1" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="72">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
