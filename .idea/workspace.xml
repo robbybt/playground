@@ -78,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circle_slack.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="339">
+              <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -274,12 +274,12 @@
       <workItem from="1543331354831" duration="33000" />
       <workItem from="1543581678589" duration="5054000" />
       <workItem from="1543642013284" duration="94000" />
-      <workItem from="1543672256209" duration="220000" />
+      <workItem from="1543672256209" duration="256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31653000" />
+    <option name="totallyTimeSpent" value="31689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -419,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle_slack.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="339">
+          <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>
