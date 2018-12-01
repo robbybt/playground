@@ -14,9 +14,11 @@ func init() {
 }
 
 func main(){
+	//asdsad
+	//echo "$(cat "test.out" | grep -a "^FAIL\s")"azz
 	gg := *test
 	fmt.Println(gg)
-	if gg < 4 {
+	if gg < 5{
 		os.Exit(1)
 	}
 	if gg > 10 {
