@@ -17,7 +17,7 @@ jobs:
           command: go run main.go -test 6
       - run:
           name: Success Slack
-          command: sh circle_slack.sh
+          command: ./circle_slack.sh
           when: on_success
 
 

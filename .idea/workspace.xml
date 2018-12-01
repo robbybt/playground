@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a72b12-3695-4e4b-9c05-1cf5d16ad030" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/circle_slack.sh" beforeDir="false" afterPath="$PROJECT_DIR$/circle_slack.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,28 +35,28 @@
         <counts>
           <entry key="go" value="14" />
           <entry key="sh" value="2" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="2" />
           <entry key="Go" value="14" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="go" value="2548" />
           <entry key="sh" value="220" />
-          <entry key="yml" value="229" />
+          <entry key="yml" value="231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="220" />
           <entry key="Go" value="2548" />
-          <entry key="YAML" value="229" />
+          <entry key="YAML" value="231" />
         </counts>
       </usages-collector>
     </session>
@@ -75,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/circle_slack.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
               <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -109,9 +118,9 @@
         <option value="$PROJECT_DIR$/memory/main.go" />
         <option value="$PROJECT_DIR$/.circleci/main.go" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/concurrency/main.go" />
         <option value="$PROJECT_DIR$/circle_slack.sh" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -144,6 +153,11 @@
             <path>
               <item name="playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="playground" type="b2602c69:ProjectViewProjectNode" />
@@ -274,18 +288,18 @@
       <workItem from="1543331354831" duration="33000" />
       <workItem from="1543581678589" duration="5054000" />
       <workItem from="1543642013284" duration="94000" />
-      <workItem from="1543672256209" duration="256000" />
+      <workItem from="1543672256209" duration="388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31689000" />
+    <option name="totallyTimeSpent" value="31821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3490701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3490701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +314,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25606796" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25606796" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3288835" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -393,13 +407,6 @@
     </entry>
     <entry file="file:///usr/local/Cellar/go/1.11.1/libexec/src/syscall/syscall.go" />
     <entry file="file:///usr/local/Cellar/go/1.11.1/libexec/src/os/proc.go" />
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -421,6 +428,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
